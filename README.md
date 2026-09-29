@@ -160,12 +160,8 @@ The application provides the following main features:
 
     The application uses a relationship between the habits and savings tables.
     
-    HABITS
-    |
-    habit_id
-    |
-    SAVINGS
-
+    HABITS → habit_id → SAVINGS
+   
     One habit can have multiple saving records.
     
     For example:
@@ -209,16 +205,15 @@ The application provides the following main features:
 
     When the application starts, the user is presented with the following menu:
     
-    ==============================
-              MAIN MENU
-    ==============================
-    1. Create habit
-    2. Edit habit
-    3. Delete habit
-    4. Record a saving
-    5. View habits
-    6. Exit
-    ==============================
+        MAIN MENU
+==============================
+1. Create habit
+2. Edit habit
+3. Delete habit
+4. Record a saving
+5. View habits
+6. Exit
+==============================
     
     The user selects an option by entering the corresponding number.
 
