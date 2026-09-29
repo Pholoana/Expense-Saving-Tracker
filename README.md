@@ -188,7 +188,7 @@ The application provides the following main features:
 10. Running the Application
 
     Clone or download the project from GitHub.
-        git clone <YOUR-GITHUB-REPOSITORY-LINK>
+        git clone https://github.com/Pholoana/Expense-Saving-Tracker.git
     
     Navigate to the project directory:
         cd Expense-Saving-Tracker
@@ -205,15 +205,15 @@ The application provides the following main features:
 
     When the application starts, the user is presented with the following menu:
     
-        MAIN MENU
-==============================
-1. Create habit
-2. Edit habit
-3. Delete habit
-4. Record a saving
-5. View habits
-6. Exit
-==============================
+                MAIN MENU
+        ==============================
+        1. Create habit
+        2. Edit habit
+        3. Delete habit
+        4. Record a saving
+        5. View habits
+        6. Exit
+        ==============================
     
     The user selects an option by entering the corresponding number.
 
