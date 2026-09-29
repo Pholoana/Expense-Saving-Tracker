@@ -161,26 +161,22 @@ The application provides the following main features:
     The application uses a relationship between the habits and savings tables.
     
     
-    ┌──────────────────────┐
-    │       HABITS         │
-    ├──────────────────────┤
-    │ id                   │
-    │ name                 │
-    │ amount               │
-    │ periodicity          │
-    └──────────┬───────────┘
-               │
-               │ habit_id
-               │
-               ▼
-    ┌──────────────────────┐
-    │       SAVINGS        │
-    ├──────────────────────┤
-    │ id                   │
-    │ habit_id             │
-    │ amount_saved         │
-    │ saving_date          │
-    └──────────────────────┘
+
+    HABITS
+    id 
+    name
+    amount 
+    periodicity 
+       │
+       │ habit_id
+       │
+       ▼
+    SAVINGS
+    id
+    habit_id
+    amount_saved
+    saving_date
+
     
     One habit can have multiple saving records.
     
