@@ -160,24 +160,12 @@ The application provides the following main features:
 
     The application uses a relationship between the habits and savings tables.
     
-    
-
     HABITS
-    id 
-    name
-    amount 
-    periodicity 
-       │
-       │ habit_id
-       │
-       ▼
-    SAVINGS
-    id
+    |
     habit_id
-    amount_saved
-    saving_date
+    |
+    SAVINGS
 
-    
     One habit can have multiple saving records.
     
     For example:
@@ -191,7 +179,7 @@ The application provides the following main features:
     The total saved for the habit would be: M50 + M30 + M40 + M20 = M140
 
 
-8. Installation
+9. Installation
 
     The application requires:
     
@@ -201,7 +189,7 @@ The application provides the following main features:
     No external Python packages are required.
 
 
-9. Running the Application
+10. Running the Application
 
     Clone or download the project from GitHub.
         git clone <YOUR-GITHUB-REPOSITORY-LINK>
@@ -217,7 +205,7 @@ The application provides the following main features:
     The application will automatically create the SQLite database if it does not already exist.
 
 
-10. Main Menu
+11. Main Menu
 
     When the application starts, the user is presented with the following menu:
     
@@ -235,7 +223,7 @@ The application provides the following main features:
     The user selects an option by entering the corresponding number.
 
 
-11. Data Persistence
+12. Data Persistence
 
     The application uses SQLite for persistent data storage.
     
@@ -246,7 +234,7 @@ The application provides the following main features:
     This allows users to close and reopen the application without losing their existing habits and saving records.
 
 
-12. Analytics
+13. Analytics
     
     The analytics functionality allows users to understand their saving activity.
     
@@ -277,7 +265,7 @@ The application provides the following main features:
         Vacation           M100.00      M0.00        Not started
 
 
-13. Design Decisions
+14. Design Decisions
 
     The final implementation uses three Python modules rather than the five modular structure initially planned.
     
@@ -297,7 +285,7 @@ The application provides the following main features:
     This approach allowed the application to remain functional while still maintaining separation between the main application flow, database operations and analytics.
 
 
-14. Future Improvements
+15. Future Improvements
 
     Possible improvements for future versions include:
     
@@ -323,7 +311,7 @@ The application provides the following main features:
         The current implementation counts recorded savings when analysing streak-related information. A future version could use the actual saving dates and periodicity to calculate true consecutive Daily or Weekly streaks.
 
 
-15. Author
+16. Author
 
     Nkopane Pholoana**
     Expense Saving Tracker
